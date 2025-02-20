@@ -1,11 +1,13 @@
 [package]
 name = "jira-api-v2"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Vladlen Chekunov <chekunov@national.shitposting.agency>"]
 description = "Jira Cloud platform REST API"
 edition = "2021"
+repository = "https://github.com/VladChekunov/jira-api-v2-rs"
 license = "GPL-3.0-or-later"
 license-file = "LICENSE"
+readme = "crates-io.md"
 
 [dependencies]
 serde = { version = "^1.0", features = ["derive"] }
